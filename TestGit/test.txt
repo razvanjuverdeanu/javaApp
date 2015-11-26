@@ -1,2 +1,22 @@
-First test
-Second
+Create a java backend application to keep track to all the employees of an IT company. 
+The backend should use Rest calls (GET, POST, …) and JSon data format. 
+
+The following ‘models’ should be implemented: 
+	•	employee (some basic data - name, CNP, etc.)
+	•	QA employee (a model that is an employee, but has some extra info/	attributes: e. g.: general QA level (1-9)
+	•	dev employee (the same as QA, but different attributes)
+	•	TL QA (a model that is an QA employee - but with some extra specific TL attributes)
+	•	TL dev (the same as above)
+	•	PM 
+	•	etc. 
+
+The rest calls should allow a client application to: 
+	•	add new employees 
+	•	view all the employees
+	•	filtrate employees 
+	•	update existing 
+	•	convert from one model to another (e.g. QA -> dev or dev -> TL dev) 
+
+You should use the OOP principles as much as possible (minimum: Inheritance, Polymorphism and Encapsulation), use collections for data manipulation, use java coding best practices, javadoc comments for all your code.  
+
+Use Git as version control system. (create branches, merge, create PR’s, review, ...)
